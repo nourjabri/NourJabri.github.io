@@ -19,7 +19,9 @@ A Flutter app designed to help users memorize Hadiths interactively.
 
 📫 Contact me: 
 Email: nourjabri19@gmail.com
+
 LinkedIn:(https://www.linkedin.com/in/nour-jabri-b72042115/)
+
 Phone: +963986978937
 
 

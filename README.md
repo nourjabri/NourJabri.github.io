@@ -2,20 +2,25 @@
 Flutter Developer | Junior Web Developer
 
 
- Skills: 
+ 🛠 Skills: 
  Flutter & Dart: Full mobile app development (Android)
-Firebase: Authentication, Firestore, Realtime Database
-API Integration: REST APIs, Free APIs for media
-Git & GitHub: Version control and organized project management
+ Firebase: Authentication, Firestore, Realtime Database
+ API Integration: REST APIs, Free APIs for media
+ Git & GitHub: Version control and organized project management
 
 
-Projects: 
+🚀 Projects: 
 Restaurant Management App
 A complete restaurant ordering system built with Flutter and intergrate with Firebase.
 School Management App
 Mobile application for managing school operations and communication.
 Hadith Memorization App
 A Flutter app designed to help users memorize Hadiths interactively.
+
+📫 Contact me: 
+Email: nourjabri19@gmail.com
+LinkedIn:(https://www.linkedin.com/in/nour-jabri-b72042115/)
+Phone: +963986978937
 
 
 <!--

@@ -72,11 +72,45 @@ nav{
   text-align: center;
   padding: 100 20px;
 }
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes floatImage {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+.hero-image img {
+  max-width: 100%;
+  width: 450px;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 10px 30px rgba(106, 17, 203, 0.4));
+  animation: floatImage 4s ease-in-out infinite;
+}
 .hero-content{ 
   position: relative;
+  flex: 1;
+  text-align: left;
   z-index: 5;
   max-width: 850px;
   animation: heroAppear 1s ease forwards;
+}
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  gap: 40px;
+  position: relative;
+  z-index: 5;
 }
 .hero-btn{ 
   background: #ffe082;
@@ -88,6 +122,30 @@ nav{
   background: transparent;
   color: white;
   padding: 13px 30px;
+}
+@media (max-width: 900px) {
+  .hero-container {
+    flex-direction: column-reverse; /* الصورة تصبح للأعلى والنصوص تحتها أو العكس */
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .hero-image img {
+    width: 280px;
+  }
+}
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 25px;
 }
 .github-btn:hover{ 
   background: rgba(255,255,255,0.1);
@@ -115,7 +173,6 @@ nav{
 .hero h1 span {
   color: #ffe082;
   background: linear-gradient(135deg, #ffe082, #ffb347);
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow:  0 0 30px rgba(225, 224, 130, 0.15);
 }

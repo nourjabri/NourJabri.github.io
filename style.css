@@ -5,6 +5,7 @@
   box-sizing: border-box;
   font-family: "Segoe UI", sans-serif;
   scroll-behavior: smooth;
+  
 }
 
 body {
@@ -13,6 +14,7 @@ body {
   color: #222;
   line-height: 1.6;
   overflow-x: hidden;
+  padding:20; 
 }
 header {
             position: fixed;
@@ -55,7 +57,7 @@ nav{
 .nav-title{ 
   font-size: 1.8rem;
   font-weight: 700;
-  background: linear-gradient(to bottom right, #6a11cb, #2575fc);
+  background: linear-gradient(to bottom right,  #2575fc);
   color: transparent;
 }
 /* Hero Section */
@@ -171,7 +173,7 @@ nav{
 }
 
 .hero h1 span {
-  color: #ffe082;
+  
   background: linear-gradient(135deg, #ffe082, #ffb347);
   -webkit-text-fill-color: transparent;
   text-shadow:  0 0 30px rgba(225, 224, 130, 0.15);
@@ -237,7 +239,7 @@ nav{
   pointer-events: none;
 }
 .glow-one{ 
-  background: #6a11cb;
+
   top: 10%;
   left: 10%;
   animation: glow 8s ease-in-out infinite alternate;

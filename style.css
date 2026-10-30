@@ -283,7 +283,11 @@ nav{
   background: #fff;
   transform: scale(1.05);
 }
-
+.subsection-title{
+  font-size: 1rem;
+  margin-bottom: 40px;
+  color: #e9b61d;
+}
 /* Projects Section */
 .projects {
   padding: 80px 20px;
